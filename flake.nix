@@ -17,6 +17,7 @@
           p: with p; [
             git
             git-repo
+            git-lfs
             bc
             bison
             flex
