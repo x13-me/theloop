@@ -1,3 +1,6 @@
 # Ignore the entire lineage source tree
 /lineage/
 .Trash*
+!/dumps/*/*firmware/*.sha256
+/dumps/*/*firmware/*.bin
+/dumps/*/*firmware.*
