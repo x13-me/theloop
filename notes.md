@@ -1,5 +1,10 @@
-# Firmware - from rosemary-user 12 SP1A.210812.016 V14.0.7.0.TKLMIXM release-keys
+# Notes
 
+------
+
+Firmware - from rosemary-user 12 SP1A.210812.016 V14.0.7.0.TKLMIXM release-keys
+
+```ebnf
 audio_dsp.img;AB
 cam_vpu1.img;AB
 cam_vpu2.img;AB
@@ -12,10 +17,12 @@ scp.img;AB
 spmfw.img;AB
 sspm.img;AB
 tee.img;AB
+```
 
 
-# This probably means the following proprietary firmware blobs need to be extracted at a minimum?
+This probably means the following proprietary firmware blobs need to be extracted at a minimum?
 
+```ebnf
 cam_vpu1_a.bin
 cam_vpu1_b.bin
 cam_vpu2_a.bin
@@ -36,3 +43,4 @@ sspm_a.bin
 sspm_b.bin
 tee_a.bin
 tee_b.bin
+```
